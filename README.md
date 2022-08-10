@@ -1,3 +1,25 @@
+## Project setup
+```
+composer install
+npm install
+```
+
+## Copy .env.example file to .env on the root folder.
+
+## Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your
+
+## Generate app key and migrate database
+```
+php artisan key:generate
+php artisan migrate
+```
+
+## Run project
+```
+npm run dev
+php artisan serve
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
