@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table{
+  @apply text-left text-black table-auto w-full border rounded-md overflow-hidden
+}
+table.striped > tbody tr:nth-child(even) {
+  @apply bg-gray-100 !important
+}
+.table-patient-list{
+  @apply shadow-md mb-3
+}
+.table-patient-list th,
+.table-patient-list td {
+  @apply py-2 px-3
+}
+.table-patient-list thead {
+  @apply bg-indigo-500 text-white
+}
+
+.btn{
+  @apply bg-slate-900 text-white py-1 px-3 rounded-lg hover:bg-slate-500 disabled:bg-gray-400 disabled:text-gray-600
+}
+.btn.hasIcon{
+  @apply flex flex-row gap-1 items-center
+}
+.btn.hasIcon svg {
+  @apply w-[20px] h-[20px] !important
+}
+.bg-primary{
+  @apply bg-indigo-500 fill-indigo-500 hover:bg-indigo-900 hover:fill-indigo-900
+}
+.bg-danger {
+  @apply bg-red-600 fill-red-600 hover:bg-red-900 hover:fill-red-900
+}
+.btn-icon{
+  @apply h-7 w-7 rounded hover:bg-gray-200 flex items-center justify-center
+}
+
+.h-dialog-title{
+  @apply py-3 px-6 border-b border-gray-100
+}
+.h-dialog-body {
+  @apply py-3 px-6
+}
