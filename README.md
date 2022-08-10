@@ -4,9 +4,8 @@ composer install
 npm install
 ```
 
-### Copy .env.example file to .env on the root folder.
-
-### Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your
+- Copy .env.example file to .env on the root folder.
+- Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your
 
 ## Generate app key and migrate database
 ```
